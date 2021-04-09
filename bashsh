@@ -1,0 +1,10 @@
+#!/bin/sh
+if [ "$1" = "--version" ] ; then
+    printf "bashsh 0.0.2\n"
+    exit 0
+fi
+
+while true ; do
+    read -p "> "
+    SHELL=$0 eval "$REPLY"
+done
