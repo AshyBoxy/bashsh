@@ -1,1 +1,2 @@
-it's just a shell written in bash
+it's just a shell written in posix sh
+originally written for bash but then i realised it was posix sh
